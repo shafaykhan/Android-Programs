@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: me.riddhimanadib.bottom-nav-bar:bottom-nav-bar:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51da363c09e1cfd1a4c75e3b4df304ba/jetified-bottom-nav-bar-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51da363c09e1cfd1a4c75e3b4df304ba/jetified-bottom-nav-bar-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51da363c09e1cfd1a4c75e3b4df304ba/jetified-bottom-nav-bar-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.riddhimanadib.bottom-nav-bar/bottom-nav-bar/1.0.1/5324a279b80854d48675a3482d5cf92fd7355a07/bottom-nav-bar-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.riddhimanadib.bottom-nav-bar/bottom-nav-bar/1.0.1/62d24959f823bc90452fcbff2fee0786c0377c8c/bottom-nav-bar-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

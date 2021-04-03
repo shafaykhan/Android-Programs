@@ -1,0 +1,145 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryTextColor"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.shafay.hp.learn_android.fragements.InformationFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="50dp">
+
+            <ImageView
+                android:id="@+id/imageViewInfo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/learn_android" />
+
+            <Button
+                android:id="@+id/buttonGithub"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageViewInfo"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ripple_effect_list"
+                android:drawableLeft="@drawable/ic_website1"
+                android:fontFamily="@font/montserrat"
+                android:paddingLeft="10dp"
+                android:text="\t Github"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonOtherApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonGithub"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/ripple_effect_list"
+                android:drawableLeft="@drawable/ic_btn"
+                android:fontFamily="@font/montserrat"
+                android:paddingLeft="10dp"
+                android:text="\t Other Apps"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonOtherApp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/ripple_effect_list"
+                android:drawableLeft="@drawable/ic_feedbck1"
+                android:fontFamily="@font/montserrat"
+                android:paddingLeft="10dp"
+                android:text="\t Feedback"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonRateUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonFeedback"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/ripple_effect_list"
+                android:drawableLeft="@drawable/ic_ratebtn"
+                android:fontFamily="@font/montserrat"
+                android:paddingLeft="10dp"
+                android:text="\t Rate Us"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/buttonShareApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonRateUs"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/ripple_effect_list"
+                android:drawableLeft="@drawable/ic_share1"
+                android:fontFamily="@font/montserrat"
+                android:paddingLeft="10dp"
+                android:text="\t Share App"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonPrivacyPolicy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonShareApp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/ripple_effect_list"
+                android:drawableLeft="@drawable/ic_privacypolicy1"
+                android:fontFamily="@font/montserrat"
+                android:paddingLeft="10dp"
+                android:text="\t Privacy Policy"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonPrivacyPolicy"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Version 5.0"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

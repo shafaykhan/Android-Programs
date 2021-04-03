@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shafay.hp.learn_android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/learn_android"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/learn_android"
+        android:supportsRtl="true"
+        android:theme="@style/AppAction"
+        tools:targetApi="28">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/MainTheme" />
+        <activity
+            android:name=".programs.display_execute.Text_View"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.ButtonE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Progress_Bar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Radio_Button"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Rating_Bar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Date_Picker"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Time_Picker"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Frame_Layout"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Table_Layout"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Grid_View"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.List_View"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Web_View"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Activity_Life_Cycle"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Service_Life_Cycle"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Explicit_Intent"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.IntentActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Implicit_Intent"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.ToastE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Telephony"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Notification"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Camera"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Splash_Screen"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Splash_Screen_Second"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Xml_Parsing"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Sqlite"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Animation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Accelerometer"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Menu_View"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Html"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Json_Parsing"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.AdUnit"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Map"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Card_View"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.View_Pager"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Search_View"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Custom_Fonts"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.Drag_Drop"
+            android:parentActivityName=".MainActivity" /> <!-- new -->
+        <activity
+            android:name=".programs.display_execute.SwipeRefreshLayoutExecute"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.SnackBarExecute"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.CustomDialogExecute"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.SeekBarExecute"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".programs.display_execute.SpinnerExecute"
+            android:parentActivityName=".MainActivity" />
+
+        <service android:name=".examples.common.util.MyService" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

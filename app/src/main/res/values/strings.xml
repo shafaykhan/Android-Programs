@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Basic Android Program</string>
+    <!--<string name="title_tutorial">Tutorial</string>-->
+    <string name="title_example">Examples</string>
+    <string name="title_information">About</string>
+
+    <string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_id_test">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="button2">Button2</string>
+    <string name="button1">Button1</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="first" />
+    <string name="second" />
+    <string name="third" />
+</resources>

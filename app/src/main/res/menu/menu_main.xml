@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:id="@+id/code1"
+    android:title="Dark Theme"
+    app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/code2"
+        android:title="Dark Blue Theme"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/code3"
+        android:title="Light Theme"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/code4"
+        android:title="Default"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Run"
+    android:icon="@drawable/ic_menu_send"
+    android:id="@+id/run"
+    app:showAsAction="always"
+     />
+
+</menu>

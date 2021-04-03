@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primaryTextColor"
+    tools:context="com.shafay.hp.learn_android.fragements.ExampleFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#00ffffff"
+        android:listSelector="@android:color/transparent"
+        android:padding="1dp"
+        />
+
+  <!--  <ListView
+        android:id="@+id/listViewa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#00ffffff"
+        android:listSelector="@android:color/transparent"
+        android:padding="1dp" />-->
+
+</FrameLayout>

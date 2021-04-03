@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/navigation_example"
+        android:icon="@drawable/ic_smp"
+        android:title="@string/title_example"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_information"
+        android:icon="@drawable/ic_smp"
+        android:title="@string/title_information"
+        app:showAsAction="always" />
+
+</menu>

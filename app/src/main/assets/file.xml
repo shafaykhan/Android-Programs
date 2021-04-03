@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<records>
+    <Country>
+        <id>01</id>
+        <name>India</name>
+        <capital>New Delhi</capital>
+    </Country>
+    <Country>
+        <id>02</id>
+        <name>United States of America</name>
+        <capital>Washington, D.C.</capital>
+    </Country>
+
+    <Country>
+        <id>03</id>
+        <name>Russia</name>
+        <capital>Moscow</capital>
+    </Country>
+
+    <Country>
+        <id>04</id>
+        <name>Australia</name>
+        <capital>Canberra</capital>
+    </Country>
+
+    <Country>
+        <id>05</id>
+        <name>Pakistan</name>
+        <capital>Islamabad</capital>
+    </Country>
+
+    <Country>
+        <id>06</id>
+        <name>China</name>
+        <capital>Beijing</capital>
+    </Country>
+
+    <Country>
+        <id>07</id>
+        <name>United Arab Emirates</name>
+        <capital>Abu Dhabi</capital>
+    </Country>
+
+    <Country>
+        <id>08</id>
+        <name>United Kingdom</name>
+        <capital>London</capital>
+    </Country>
+
+</records>
